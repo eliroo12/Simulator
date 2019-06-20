@@ -1,0 +1,8 @@
+For openers use the format - opener:Opener Name;Ability1,Ability2
+For fights use the format - fight:Fight Name:Start-End-Delaybuffs
+
+opener:Late Trick;Standard Finish,Flourish,Bloodshower,Potion,Reverse Cascade,Hold .7,Saber Dance,Technical Step,AutoOGCD 1,AutoGCD,AutoOGCD 2,Standard Step,AutoOGCD 1,AutoGCD
+opener:Early Trick;Standard Finish,Flourish,Bloodshower,Potion,Saber Dance,Technical Step,Reverse Cascade,AutoOGCD 2,Fountainfall,Standard Step,AutoOGCD 1,AutoGCD
+opener:Selfless;Standard Finish,Flourish,Technical Step,Saber Dance,Bloodshower,Potion,Reverse Cascade,AutoOGCD 2,Fountainfall,Standard Step,AutoOGCD 1,AutoGCD
+fight:Default;100000-100001-False
+fight:Bahamut;200-220-True,300-320-True,400-420-True
