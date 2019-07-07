@@ -1,9 +1,15 @@
 For openers use the format - opener:Opener Name;Ability1,Ability2
 For fights use the format - fight:Fight Name:Start-End-Delaybuffs
 
-opener:Late Trick;Standard Finish,Flourish,Bloodshower,Potion,Reverse Cascade,Hold .7,Devilment,Technical Step,AutoOGCD 1,AutoGCD,AutoOGCD 2,Standard Step,AutoOGCD 1,AutoGCD
-opener:Early Trick;Standard Finish,Flourish,Bloodshower,Potion,Devilment,Technical Step,Reverse Cascade,AutoOGCD 2,Fountainfall,Standard Step,AutoOGCD 1,AutoGCD
-opener:Early Trick 2;Standard Finish,Devilment,Technical Step,Cascade,Potion,AutoGCD,AutoOGCD 2, AutoGCD, Standard Step,AutoOGCD 1,AutoGCD
-opener:Selfless;Standard Finish,Flourish,Technical Step,Devilment,Bloodshower,Potion,Reverse Cascade,AutoOGCD 2,Fountainfall,Standard Step,AutoOGCD 1,AutoGCD
+dncopener:Devilment First;StandDrift,TechDrift,Prepot 1.5,Standard Finish,Devilment,Technical Step,Flourish,Rising Windmill,Bloodshower
+dncopener:Flourish First;Prepot 1.5,Standard Finish,Flourish,Technical Step,Devilment,Bloodshower
+dncopener:Two GCD Delay Tech;Prepot 1.5,Standard Finish,Flourish,Bloodshower,Reverse Cascade,Devilment,Technical Step
+dncopener:Pretech;Pretech,TechDrift,StandDrift,Prepot 1.5,Technical Finish,Devilment,Standard Step,Flourish,Rising Windmill,Bloodshower,AutoGCD
+
+
+brdopener:Prepull;PotionPre 2.2,PreRaging .7,Stormbite,Bloodletter,Minuet,Caustic Bite,Battle Voice,Empyreal Arrow,AutoPP 1,AutoGCD,AutoPP 2,AutoGCD,AutoPP 1,AutoGCD,AutoOGCD 2,AutoGCDIJ,Sidewinder,AutoPP 1,AutoGCDIJ,AutoOGCD 2,AutoGCDIJ
+brdopener:Prepull Later Min;PotionPre 2.2,PreRaging .7,Stormbite,Bloodletter,Caustic Bite,Minuet,Empyreal Arrow,AutoGCD,AutoPP 2,AutoGCD,AutoPP 1,AutoGCD,AutoOGCD 2,AutoGCDIJ,Sidewinder,AutoPP 1,AutoGCDIJ,AutoOGCD 2,AutoGCDIJ
+brdopener:Standard;PotionPre 1.5,Stormbite,Bloodletter,Raging Strikes,Caustic Bite,Minuet,Empyreal Arrow,AutoPP 1,AutoGCD,Battle Voice,AutoPP 1,AutoGCD,AutoPP 2,Iron Jaws
+
 fight:Default;100000-100001-False
 fight:Bahamut;200-220-True,300-320-True,400-420-True

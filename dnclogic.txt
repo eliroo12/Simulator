@@ -1,0 +1,62 @@
+AutoGCD logic in opener(Bit depricated, just recommend letting sim handle the opener after set GCDs):
+
+# Auto GCD in the opener
+                        # If technical is active and Esprit > 80 - Use Saber Dance
+                        # If we are to lose any procs do them in the following order Fountfall > Cascade >Bloodshower > windmill
+                        # If we are in a buffwindow and esprit is great than or equal to 50 then use Saber Dance
+                        # If we are in a combo and self.buffs['Flourishing Fountain'] is not active and our combo will drop - Use Fountain
+                        # Use Flourishes in this order : Fountainfall >  Reverse Cascade > Blood > Rising
+                        # If esprit is 90 or above use Saber Dance
+                        # If combo use Fountain
+                        # Else use Cascade
+
+# AutoOGCD in the opener
+                        # If self.abilities['Flourish'] is up, we have no procs - Use it
+                        # If self.abilities['Flourish'] fan is up use FD3
+                        # if we are in the buffwindow and have feathers and can use FD1 use FD1
+                        # If we have 4 feathers and FD1 is up use FD1
+                        # push the oGCD further if we have more feathers. at a 2.4 gcd we can get two in 
+
+
+# GCD Priority List -
+                # First we check if we are dancing and finish the dance
+                # We check the status on technical, If we used Saber first in our opener we also check to see if Devilment is up. We also check to make there is no boss jump/delay in the 22 seconds Then we use Technical
+                # If Technical is up and we have 80 or more Esprit - Use Saber
+                # Check if Standard Step is up and there is no boss jump/delay in 5 seconds - If so use it
+                # If we have 50 Esprit. improv is up and the boss is jumping within the next GCD we want to dump Esprit into Saber Dance
+                # If we don't have a ninja in our group and we aren't using Technical step in 30s and we have no procs but flourish will be of CD within the next GCD and we have enough esprit - Use Saber
+                # next we check if 1 or more dances are coming and one is next GCD and if we have Flourishing Fountain - Use Flourish Fountain
+                # next we check if 1 or more dances are coming and one is next GCD and if we have Flourishing Cascade - Use Flourish Cascade
+                # If we have Flourishing Fountain and we will lose a the proc next GCD - Use Fountainfall
+                # If we have Flourishing Cascade and we will lose a the proc next - Use Reverse Cascade
+                # next we check if we are in combo and the combo is about to drop and we don't have Flourish Fountain - Use Fountain
+                # If Flourisng Cascade is up and we will lose any Flourish  proc if we don't use one - Use Reverse Cascade
+                # If Flourishing Bladeshower is up and we will lose any Flourish proc if we don't use one - Use Bloodshower
+                # If we are in a buffwindow and esprit equal or greater than 50 - Use Saber Dance
+                # If Flourishing up and we will lose any Flourish proc if we don't use one - Use Rising Windmill
+                # Use Saber if Esprit is at 80 or above
+                # If we are in a buffwindow and Flourishing Fountain is up - Use Fountainfall
+                # If we are in a buffwindow and Flourising Cascade is up - Use Reverse Cascade
+                # If we are in a buff window and Flourishing Bladeshower is up - Use Blood Shower
+                # If we are in a buff window and Flourishing Windmill is up - Use Rising Windmill
+                # If Flourishing Windmill is up - Use Risingmill
+                # if Flourishing Blade Shower - Use Bloodshower
+                # if Flourishing Cascade - Use Reverse Cascade
+                # if Flourishing Fountain - Use Fountainfall
+                # If we are in a combo use Fountain
+                #  Else Use Cascade
+
+# oGCD Priority list
+                    # Ignore oGCDs if dancing
+                    # If Devilment is ready, and technical is the next GCD or we opened with Technical first and we are in the second oGCD slot - Use Saber
+                    # If Saber is ready and technical is the next GCD or we opened with Technical first and our next GCD is greater than 1.5 away, close the ogcd slot to ensure saber gets second slot
+                    # if Devilment is ready, our opener used Saber First and Technical Step is the next gcd and nextgcd is 1.7 away, wait. To ensure second oGCD slot
+                    # if Flourish is available, we have 0 Flourish procs, and technical dance isn't less than 4* our Current GCD seconds away and we aren't dancing twice in the next 15, and we aren't in a buff window with 50 or more Esprit - Flourish
+                    # if our potion is ready and the next Devilment is less than 15 seconds away - use potion
+                    # if we have a flourished fan and are double dancing in the next 15 seconds or self.abilities['Flourish'] is up, use Fan Dance III
+                    # if we have a flourished fan and the fan is close to dropping, use Fan Dance III
+                    # If we have a flourished fan and the next buff window is more than 13.5 seconds away, use Fan Dance III
+                    # if we have a flourished fan and we have 4 feathers, use Fan Dance III
+                    # If we are in a buffwindow and have a flourished fan, use Fan Dance III
+                    # If we are in a buffwindow and have feathers use Fan Dance I
+                    # IF we have 4 feathers and some other Flourish  proc - Use Fan Dance I

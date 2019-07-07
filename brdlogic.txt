@@ -1,0 +1,52 @@
+ Song logic
+        # Minuet - If its available and Ballad isn't active or ballad will end before the next tick
+        #Ballad - If its available and minuet isnpt active or it will fall before the next tick
+        #Paeon - If its available and Ballad and Minuet aren't active or will fall before the next tick
+
+#Ea Logic
+        #If EA is available
+        # If we are in minuet and have 3 rep don't go
+        # If we are in ballad and Bloodletter is available don't go
+        # If we are in ballad and we don't have time to use the BL proc before next tick, don't go
+
+
+#Clip logic
+        # If minuet is up and will drop off within the next gcd and we have more rep than 0 and next tick - .7 is greater than minuets end time - clip
+        # if we are in ballad and bl is available and the next tick is within 1.5 seconds, clip
+
+
+#Snap logic
+        # if the mod on the current dot is great than our current mod don't snap
+        # if raging strikes isn't up, don't snap
+        # else if our dot time is less than 10 and RS is close to drop, snap
+        # if no conditions are met don't snap
+
+
+# GCD Priority List
+                # # If Soul Voice is 95 or above > Use Apex Arrow
+                # If Barrage is active > Use Refulgent
+                # If Both dots are active and we pass the snap logic(See below) we use Iron Jaws
+                # If both dots are active and If dots expire on or before next GCD > Iron Jaws
+                # If Storm isn't up > Stormbite
+                # If Caustic isn't up > Caustic bite
+                # If refulgent expires within the next GCD > Refulgent
+                # If Soul Voice is 95 or above > Use Apex Arrow
+                # Use Refulgent If SS is up
+                # Use Burst Shot
+
+# oGCD Priority list
+                    # If we think its ok to clip in minuet (About to fall off with REP) use PP
+                    # If we think its ok to clip in ballad (Dot tick soon and BL is up) use BL
+                    # If we are in ballad, bloodletter is available and nextick is within 1.4s we use Bloodletter
+                    # If we are in minuet and we have rep and Minuet falls with the next gcd - Use PP
+                    #If we are in minuet and we have 3 rep use PP
+                    # If minuet is available, we are not in ballad or if we are in ballad but it will fall before next tick - Use Minuet
+                    # If ballad is available, we are not in minuet or if we are in minuet but it will fall before next tick - Use Ballad
+                    # if paeon is available, If no songs are active, use Paeon if ballad or minuet are active but will fall off before next tick, use Paeon
+                    # if Raging strikes is available and we are 1.5s away from a GCD and we are no in Paeon, use it
+                    # if BV is available, use it
+                    # if EA is available, use it
+                    # if barrage is available and SS isn't ready, use it
+                    # If bloodletter is available, use it
+                    # if SW is available, use it
+
