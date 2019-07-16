@@ -1,6 +1,7 @@
 For openers use the format - opener:Opener Name;Ability1,Ability2
 For fights use the format - fight:Fight Name:Start-End-Delaybuffs
 
+dncopener:Standard Open;Prepot 1.5,Standard Finish,Technical Step,Flourish,Rising Windmill,Devilment,Bloodshower
 dncopener:Devilment First;Prepot 1.5,Standard Finish,Devilment,Technical Step,Flourish,Rising Windmill,Bloodshower
 dncopener:Flourish First;Prepot 1.5,Standard Finish,Flourish,Technical Step,Devilment,Bloodshower
 dncopener:Weave Meme;Prepot 1.5,Standard Finish,Technical Step,Flourish,Devilment,Rising Windmill,Bloodshower
