@@ -12,6 +12,8 @@ dncopener:Pretech;Pretech,TechDrift,StandDrift,Prepot 1.5,Technical Finish,Devil
 brdopener:Prepull;PotionPre 2.2,PreRaging .7,Stormbite,Bloodletter,Minuet,Caustic Bite,Battle Voice,Empyreal Arrow,AutoPP 1,AutoGCD,AutoPP 2,AutoGCD,AutoPP 1,AutoGCD,AutoOGCD 2,AutoGCDIJ,Sidewinder,AutoPP 1,AutoGCDIJ,AutoOGCD 2,AutoGCDIJ
 brdopener:Prepull Later Min;PotionPre 2.2,PreRaging .7,Stormbite,Bloodletter,Caustic Bite,Minuet,Empyreal Arrow,AutoGCD,AutoPP 2,AutoGCD,AutoPP 1,AutoGCD,AutoOGCD 2,AutoGCDIJ,Sidewinder,AutoPP 1,AutoGCDIJ,AutoOGCD 2,AutoGCDIJ
 brdopener:Standard;PotionPre 1.5,Stormbite,Bloodletter,Raging Strikes,Caustic Bite,Minuet,Empyreal Arrow,AutoPP 1,AutoGCD,Battle Voice,AutoPP 1,AutoGCD,AutoPP 2,Iron Jaws
+brdopener:Prepull No Pot;PreRaging .7,Stormbite,Bloodletter,Minuet,Caustic Bite,Battle Voice,Empyreal Arrow,AutoPP 1,AutoGCD,AutoPP 2,AutoGCD,AutoPP 1,AutoGCD,AutoOGCD 2,AutoGCDIJ,Sidewinder,AutoPP 1,AutoGCDIJ,AutoOGCD 2,AutoGCDIJ
+
 
 fight:Default;100000-100001-False
 fight:Bahamut;200-220-True,300-320-True,400-420-True
