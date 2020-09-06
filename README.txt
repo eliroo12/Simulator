@@ -1,12 +1,12 @@
 -------PLEASE NOTE THAT THIS IS A SIMULATION RAN BY A COMPUTER. IT IS ONLY SOMEWHAT REFLECTIVE OF THE CAPABILITIES OF AN AVERAGE PLAYER.------------
-------THE MAIN USE AND GOAL FOR THIS SIM IS TO COMPARE STATS, COMPARE OPENERS, AND OVERALL SEE HOW THINGS EFFECT OUR ROTATION.----------
+------THE MAIN USE AND GOAL FOR THIS SIM IS TO COMPARE STATS, COMPARE OPENERS, AND OVERALL SEE HOW THINGS AFFECT OUR ROTATION.----------
 -----DAMAGE VALUES MAY BE 1-2% OFF BECAUSE THE DAMAGE FORMULA ORDERING ISN'T FULLY UNDERSTOOD JUST YET----
 
 Basic Sim functions - Using the GUI:
 
 * You can run at most two different sims at once to compare different stats and openers. If you want to compare you need to just simply make sure that Sim Two has stat information full filled out and the sim will run both
 *Opener is where you can choose between defined openers. that are built out in the settings file (More on how to work that later)
-* Fights are simply a tool to gauge how downtime effects each job. Currently DNC has delay logic while BRD does not. This feature should never be used to gauge opener and/or stats.
+* Fights are simply a tool to gauge how downtime affects each job. Currently DNC has delay logic while BRD does not. This feature should never be used to gauge opener and/or stats.
 * Length of Fight is how long you want to run the sim in seconds. 
 * Run Times is how many times you want to run each sim. More times = More accurate results but will take longer to run.
 * Set Party will allow you to pick what part members you have. It requires you to choose at least 7 and will determine what buffs are available.
